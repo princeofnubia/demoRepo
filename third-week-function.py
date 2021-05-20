@@ -47,8 +47,8 @@ def sub(x, y):
 def get_total(scores):
     total_sum = 0
     for value in scores:
-        print("current sum: ", total_sum)
-        print("current value: ", value)
+        # print("current sum: ", total_sum)
+        # print("current value: ", value)
         total_sum = total_sum + value
     print("Final sum: ", total_sum)
     return total_sum
