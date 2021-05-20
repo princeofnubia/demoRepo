@@ -32,11 +32,21 @@ def faulty_guess(no_of_tries = 0):
 # recursion
 def factorial(n):
     if (n == 1): #base case
-        print(n)
         return 1
     else: # recursive case
         print('value of n: ', n)
         return n * factorial(n-1)
+
+#factorial(8) =
+#       8 * factorial(7) =
+#       8 * 7 * factorial(n = 6) =
+#       8 * 7 * 6 * factorial(n = 5) =
+#       8 * 7 * 6 * 5 * factorial(n = 4) =
+#       8 * 7 * 6 * 5 * 4 * factorial(n = 3) =
+#       8 * 7 * 6 * 5 * 4 * 3 * factorial(n = 2) = 
+#       8 * 7 * 6 * 5 * 4 * 3 * 2 * factorial( n = 1) =
+#       8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 = total
+#factorial(7) = 7 * 6 * 5 * 4 * 3 * 2 * 1
 
 def add(x, y):
     return x + y
@@ -47,8 +57,8 @@ def sub(x, y):
 def get_total(scores):
     total_sum = 0
     for value in scores:
-        # print("current sum: ", total_sum)
-        # print("current value: ", value)
+        print("current sum: ", total_sum)
+        print("current value: ", value)
         total_sum = total_sum + value
     print("Final sum: ", total_sum)
     return total_sum
@@ -83,7 +93,7 @@ def reverse_list_another(my_list):
 
 def reverse_list_simple(my_list):
     list_length = len(my_list) # get the length
-    even_dividend = list_length // 2
+    even_dividend = list_length #
     for i in range(even_dividend): #breaking out of the loop
         swap_index = list_length - (1 + i)
         swap_value = my_list[swap_index]
@@ -93,10 +103,6 @@ def reverse_list_simple(my_list):
         my_list[swap_index] = first_value
     return my_list #runs after we break out of the loop
 
-def reverse_recursive(my_list):
-    new_list = []
-    if len(my_list) == 0:
-        return
-    else:
-        return new_list
 
+def reverse_recursive(my_list):
+    pass
