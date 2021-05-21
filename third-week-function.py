@@ -106,3 +106,10 @@ def reverse_list_simple(my_list):
 
 def reverse_recursive(my_list):
     pass
+
+def printer(parameter):
+    print(parameter)
+
+def calculate_sum(a_list):
+    pass
+
