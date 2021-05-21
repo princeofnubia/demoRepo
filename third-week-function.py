@@ -2,6 +2,7 @@
 # I take a guess on values within three
 # tries
 import copy
+from typing import MutableMapping
 def guess():
     number_of_tries = 0
     # inner function definition
@@ -106,3 +107,21 @@ def reverse_list_simple(my_list):
 
 def reverse_recursive(my_list):
     pass
+
+
+# type your correction here and push to that branch and make a pull request after that 
+# given a list of numbers calculate sum of numbers in the list
+# sum = 0
+# we go through the members in the list
+# then add each number to sum
+# then return sum after going through the list
+def calculate_sum(the_list):
+    total_sum =0
+    for each_number in the_list:
+        total_sum = total_sum + each_number
+    return total_sum
+        
+def calculate_mean(the_list):
+    total_sum = calculate_sum(the_list)
+    length_of_list = len(the_list)
+    mean = total_sum/length_of_list
