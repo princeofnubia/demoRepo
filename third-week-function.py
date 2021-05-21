@@ -106,3 +106,21 @@ def reverse_list_simple(my_list):
 
 def reverse_recursive(my_list):
     pass
+
+
+# Assignment for the third week friday
+
+# Your function should do just one thing not several things at a time
+def calculate_sum(the_list):
+    total_sum = 0
+    for each_number in the_list:
+        total_sum = total_sum + each_number
+    return total_sum
+
+def calculate_mean(a_list):
+    # re using the calculate_sum function to get the sum of the list items
+    total_sum = calculate_sum(a_list)
+    length_of_list  = len(a_list)
+    mean = total_sum/length_of_list
+    return mean
+
