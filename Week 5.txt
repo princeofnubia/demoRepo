@@ -1,0 +1,26 @@
+def countX(lst,x):
+    count=0
+    for ele in lst:
+        if(ele==x):
+            count=count+1
+    return count
+lst=input()
+x=4
+print("{} has occurred {} times".format(x,countX(lst,x)))
+l=input("Input a letter of the alphabet: ")
+if l in ("a", "e", "i", "o", "u"):
+    print("It is a vowel")
+else:
+    print("It is a consonant")
+
+def substring_copy(str,n):
+    flen=2
+    if flen>len(str):
+        flen=len(str)
+    substr=str[:flen]
+    result=""
+    for i in range(n):
+        result=result+substr
+    return result
+
+
