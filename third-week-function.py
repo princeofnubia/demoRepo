@@ -1,6 +1,6 @@
 # Guessing machine
 # I take a guess on values within three
-# tries
+# tries restored
 import copy
 def guess():
     number_of_tries = 0

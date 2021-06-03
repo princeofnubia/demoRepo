@@ -62,3 +62,4 @@ class Registry:
             self.__show()
 
 # write a feature that allows the user to empty the records
+d =  Registry()
