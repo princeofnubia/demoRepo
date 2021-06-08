@@ -34,6 +34,19 @@ def sum_numbers(x,y,z):
         sump=sump*3
     return sump
 
+#Question 19
+def new_string(str):
+    if len(str)>=2 and str[:2]=="Is":
+        return str
+    return "Is" + str
+
+#Question 20
+def larger_string(str,n):
+    
+    for i in range(n):
+        result=result+str
+    return result
+
 
 
 
