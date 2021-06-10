@@ -1,0 +1,143 @@
+<html>
+
+<head>
+    <style>
+        body {
+            padding: 100px;
+            background-color: #fff93c;
+            overflow-y: hidden;
+        }
+        
+        table {
+            border: 1px solid #999;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            overflow-y: auto;
+            background: #fff;
+        }
+        
+        .table-div {
+            height: 100%;
+            overflow-y: auto;
+        }
+        
+        th,
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+        
+        th {
+            background-color: #999;
+            color: white
+        }
+        
+        tr:nth-child(even) {
+            background-color: rgb(235, 235, 235)
+        }
+        
+        th {
+            position: sticky;
+            top: 0;
+        }
+        
+        tr:hover {
+            background-color: #999;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+    <script type="text/javascript">
+        function clickMe(e) {
+            alert('you clicked me!')
+        }
+        window.onload = function() {
+            document.getElementById('tr').addEventListener('click', clickMe, false)
+        }
+    </script>
+</head>
+
+<body>
+    <!-- List of Items in the shop-->
+    <div class="table-div">
+        <table>
+            <tr id="tr">
+                <th>S/N</th>
+                <th>Item</th>
+                <th>In stock</th>
+            </tr>
+            <tr id="tr">
+                <td>1</td>
+                <td>Shea butter</td>
+                <td>100</td>
+            </tr>
+            <tr id="tr">
+                <td>2</td>
+                <td>Eva Water</td>
+                <td>200</td>
+            </tr>
+            <tr id="tr">
+                <td>3</td>
+                <td>Cocoa Vita</td>
+                <td>20</td>
+            </tr>
+            <tr id="tr">
+                <td>4</td>
+                <td>Blue Band Butter</td>
+                <td>34</td>
+            </tr>
+            <tr id="tr">
+                <td>5</td>
+                <td>Fromage Cheese</td>
+                <td>20</td>
+            </tr>
+            <tr id="tr">
+                <td>6</td>
+                <td>Cerellac</td>
+                <td>30</td>
+            </tr>
+            <tr id="tr">
+                <td>7</td>
+                <td>Molfix Diapers</td>
+                <td>20</td>
+            </tr>
+
+            <tr id="tr">
+                <td>8</td>
+                <td>Kia Kit</td>
+                <td>200</td>
+            </tr>
+            <tr id="tr">
+                <td>9</td>
+                <td>Singlets</td>
+                <td>20</td>
+            </tr>
+            <tr id="tr">
+                <td>10</td>
+                <td>Shoe Polish</td>
+                <td>34</td>
+            </tr>
+            <tr id="tr">
+                <td>11</td>
+                <td>Keto Yoghourt</td>
+                <td>20</td>
+            </tr>
+            <tr id="tr">
+                <td>12</td>
+                <td>Kilishi</td>
+                <td>30</td>
+            </tr>
+            <tr id="tr">
+                <td>13</td>
+                <td>Omo</td>
+                <td>20</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+
+</html>

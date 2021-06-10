@@ -1,0 +1,38 @@
+p {
+    color: black;
+    text-align: center;
+}
+
+p.change-text {
+    text-decoration: none
+}
+
+p.do-something {
+    background: yellow
+}
+
+
+/* grouping selector */
+
+h1,
+h3,
+p {
+    text-decoration: underline;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+
+/* Id selector */
+
+#header {
+    background-color: white
+}
+
+
+/* class selector */
+
+
+/* universal selector */
