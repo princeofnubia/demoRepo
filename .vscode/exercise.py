@@ -51,3 +51,6 @@ import calendar
 y = int(input("Input the year : "))
 m = int(input("Input the month : "))
 print(calendar.month(y, m)) 
+
+
+#26. Write a Python program to create a histogram from a given list of integers. 
