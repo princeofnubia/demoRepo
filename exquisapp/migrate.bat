@@ -1,0 +1,1 @@
+echo manage migrations
