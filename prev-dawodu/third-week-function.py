@@ -106,6 +106,12 @@ def reverse_list_simple(my_list):
 
 def reverse_recursive(my_list):
     pass
+<<<<<<< Updated upstream
+=======
+#calculate sum and mean
+=======
+>>>>>>> ca31d0763b7bc0671a2fe596e4392f8cd6a8c3ec
+>>>>>>> Stashed changes
 def calculate_sum(the_list):
     total_sum=0
     for each_number in the_list:
