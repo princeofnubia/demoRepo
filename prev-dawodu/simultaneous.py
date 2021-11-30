@@ -18,7 +18,7 @@ class Simultaneous_equation:
         self.c1 = c/b
         self.m2 = -d/e
         self.c2 = f/e
-        self.pen = turtle.Pen()
+        
         self.solve()
 
     def solveX(self):
@@ -62,6 +62,7 @@ class Simultaneous_equation:
         self.pen.penup()
 
     def draw_solution_graph(self):
+        self.pen = turtle.Pen()
         self.draw_coordinates()
         # draw first equation graph
         self.draw_equation(self.m1, self.c1)
